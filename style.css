@@ -5,32 +5,56 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background-image: radial-gradient(circle at top left, rgba(255, 76, 76, 0.05), transparent 70%), radial-gradient(circle at bottom right, rgba(0, 255, 255, 0.05), transparent 70%);
+  background-attachment: fixed;
+}
+
+header.hero {
+  background: none;
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+  color: #fff;
+  position: relative;
+}
+
+header.hero h1 {
+  font-size: 3.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 6px #ff4c4c;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+header.hero p.tagline {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #ccc;
+  line-height: 1.8;
 }
 
 header.terminal-header {
-  background-color: #1a1a1a;
-  color: #ff4c4c;
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-  border-bottom: 1px solid #444;
-  font-family: 'Courier New', Courier, monospace;
-  text-shadow: 0 0 4px #ff4c4c;
+  display: none;
 }
 
 nav {
-  background-color: #1a1a1a;
+  background-color: transparent;
   padding: 0.5rem 2rem;
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #222;
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(6px);
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -41,6 +65,7 @@ nav ul li a {
   transition: all 0.3s ease;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 nav ul li a:hover {
@@ -50,11 +75,11 @@ nav ul li a:hover {
 
 main {
   max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-  background: #111;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(255, 76, 76, 0.2);
+  margin: 3rem auto;
+  padding: 2rem 1rem;
+  background: rgba(17, 17, 17, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 76, 76, 0.15), 0 0 15px rgba(0, 255, 255, 0.05);
 }
 
 h2 {
