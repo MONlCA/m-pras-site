@@ -9,7 +9,7 @@ body {
 
 header.terminal-header {
   background-color: #111;
-  color: #50fa7b;
+  color: #ff4c4c;
   padding: 1rem 2rem;
   font-size: 1.1rem;
   border-bottom: 1px solid #444;
@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #8be9fd;
+  color: #ff4c4c;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -50,7 +50,7 @@ main {
 }
 
 h2 {
-  color: #bd93f9;
+  color: #ff4c4c;
   border-bottom: 1px solid #444;
   padding-bottom: 0.3rem;
 }
@@ -60,7 +60,7 @@ ul li {
 }
 
 a {
-  color: #8be9fd;
+  color: #ff4c4c;
   text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ a:hover {
 
 .blinking-cursor {
   animation: blink 1s step-end infinite;
-  color: #50fa7b;
+  color: #ff4c4c;
 }
 
 @keyframes blink {
