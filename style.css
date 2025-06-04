@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #0e0e0e;
   color: #f8f8f2;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,20 +8,23 @@ body {
 }
 
 header.terminal-header {
-  background-color: #111;
+  background-color: #1a1a1a;
   color: #ff4c4c;
   padding: 1rem 2rem;
   font-size: 1.1rem;
   border-bottom: 1px solid #444;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 4px #ff4c4c;
 }
 
 nav {
-  background-color: #111;
+  background-color: #1a1a1a;
   padding: 0.5rem 2rem;
   position: sticky;
   top: 0;
   z-index: 999;
   border-bottom: 1px solid #333;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav ul {
@@ -35,24 +38,32 @@ nav ul {
 nav ul li a {
   color: #ff4c4c;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 nav ul li a:hover {
-  color: #ff79c6;
-  text-shadow: 0 0 5px #ff79c6;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
 }
 
 main {
-  max-width: 800px;
+  max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
+  background: #111;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 76, 76, 0.2);
 }
 
 h2 {
   color: #ff4c4c;
   border-bottom: 1px solid #444;
   padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 5px #ff4c4c;
 }
 
 ul li {
@@ -65,7 +76,8 @@ a {
 }
 
 a:hover {
-  color: #ffb86c;
+  color: #00ffff;
+  text-shadow: 0 0 6px #00ffff;
 }
 
 .blinking-cursor {
@@ -81,4 +93,27 @@ a:hover {
 
 section {
   margin-bottom: 2.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.skills-grid div {
+  background-color: #1f1f1f;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(255, 76, 76, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skills-grid div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff4c4c, 0 0 15px #00ffff;
 }
