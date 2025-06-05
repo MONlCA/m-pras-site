@@ -1,4 +1,4 @@
-/* Reset & Global */
+/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation */
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 6rem 2rem 4rem;
+  padding: 6rem 2rem 3rem;
 }
 
 .hero-img {
@@ -57,27 +57,27 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   line-height: 1.3;
 }
 
-.gradient-text {
-  background: linear-gradient(to right, #f94d5d, #c154ff);
+.gradient-orange-pink {
+  background: linear-gradient(to right, #ff7635, #c154ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hero-subtext {
-  max-width: 620px;
-  margin: 0 auto 2.5rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
   font-size: 0.95rem;
   color: #aaa;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
-/* CTA Buttons */
+/* CTA */
 .cta-buttons {
   margin-bottom: 2.5rem;
 }
@@ -97,6 +97,7 @@ body {
   color: #0d0d0d;
 }
 
+/* Skills Row */
 .skills-icons {
   margin-top: 1.5rem;
   font-size: 1.5rem;
@@ -106,16 +107,21 @@ body {
   gap: 1.5rem;
 }
 
-/* Section Headings */
+/* Section Titles */
 .section-title {
   font-size: 1.1rem;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
   margin: 5rem 0 2rem;
-  background: linear-gradient(to right, #f94d5d, #c154ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+
+.orange-text {
+  color: #ff7635;
+}
+
+.blue-text {
+  color: #4ea3f1;
 }
 
 /* Projects */
@@ -160,7 +166,7 @@ body {
 
 /* Experience */
 .experience-list {
-  max-width: 680px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -173,8 +179,10 @@ body {
 }
 
 .job-icon {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: 1.6;
+  color: #f94d5d;
+  min-width: 20px;
 }
 
 .job-entry h3 {
@@ -183,24 +191,39 @@ body {
   margin-bottom: 0.25rem;
 }
 
+.job-entry .date {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
 .job-entry p {
   font-size: 0.9rem;
   color: #bbb;
 }
 
-/* Contact */
+/* Footer Contact */
 #contact {
   text-align: center;
-  padding: 4rem 1rem;
+  background-color: #111;
+  padding: 4rem 1rem 5rem;
   color: #aaa;
   font-size: 0.9rem;
 }
 
 #contact a {
-  color: #ff4c4c;
+  color: #f94d5d;
   text-decoration: none;
 }
 
 #contact a:hover {
   text-decoration: underline;
+}
+
+.socials {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
 }
