@@ -202,6 +202,22 @@ body {
   color: #bbb;
 }
 
+/* Certifications & Tools */
+.cert-list,
+.tool-list {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  list-style: disc;
+  color: #bbb;
+}
+
+.cert-list li,
+.tool-list li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
 /* Footer Contact */
 #contact {
   text-align: center;
