@@ -22,11 +22,9 @@ body {
   border-bottom: 1px solid #222;
 }
 
-.site-logo {
-  font-weight: bold;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
-  color: #fff;
+.logo-icon {
+  height: 36px;
+  width: auto;
 }
 
 .nav-links {
@@ -52,22 +50,17 @@ body {
   padding: 6rem 2rem 4rem;
 }
 
-.avatar-wrapper {
-  margin-bottom: 1.5rem;
-}
-
-.avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #444;
+.hero-img {
+  width: 160px;
+  height: auto;
+  margin-bottom: 2rem;
 }
 
 .hero h1 {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin-bottom: 0.75rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.3;
 }
 
 .gradient-text {
@@ -77,54 +70,55 @@ body {
 }
 
 .hero-subtext {
-  font-size: 1rem;
-  color: #aaa;
-  max-width: 640px;
+  max-width: 620px;
   margin: 0 auto 2.5rem;
+  font-size: 0.95rem;
+  color: #aaa;
+  line-height: 1.7;
 }
 
+/* CTA Buttons */
 .cta-buttons {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: 25px;
+  padding: 0.75rem 1.6rem;
   border: 1px solid #fff;
+  border-radius: 30px;
+  font-weight: 600;
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
   background-color: #fff;
-  color: #111;
+  color: #0d0d0d;
 }
 
 .skills-icons {
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
-  color: #eee;
+  color: #ccc;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
 }
 
-/* Section Titles */
+/* Section Headings */
 .section-title {
   font-size: 1.1rem;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
-  margin: 4rem 0 2rem;
+  margin: 5rem 0 2rem;
   background: linear-gradient(to right, #f94d5d, #c154ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Projects Section */
+/* Projects */
 .project-grid {
   display: flex;
   justify-content: center;
@@ -164,7 +158,7 @@ body {
   color: #bbb;
 }
 
-/* Experience Section */
+/* Experience */
 .experience-list {
   max-width: 680px;
   margin: 0 auto;
@@ -194,7 +188,7 @@ body {
   color: #bbb;
 }
 
-/* Contact Section */
+/* Contact */
 #contact {
   text-align: center;
   padding: 4rem 1rem;
