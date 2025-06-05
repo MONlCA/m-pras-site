@@ -44,25 +44,25 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 6rem 2rem 4rem;
+  padding: 7rem 2rem 5rem;
 }
 .avatar-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   background-color: #000;
   border: 4px solid #333;
 }
 .hero h1 {
-  font-size: 2.6rem;
-  margin: 1rem 0 0.5rem;
+  font-size: 2.8rem;
+  margin: 1rem 0 0.75rem;
   font-weight: 700;
 }
 .white-text {
@@ -75,12 +75,12 @@ nav ul li a:hover {
 }
 .hero-subtext {
   max-width: 720px;
-  margin: 0 auto 2.5rem;
-  font-size: 1.05rem;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
   color: #bbb;
 }
 .cta-buttons {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 .btn {
   display: inline-block;
@@ -99,7 +99,7 @@ nav ul li a:hover {
   color: #111;
 }
 .tech-icons {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
   color: #fff;
   display: flex;
@@ -108,7 +108,8 @@ nav ul li a:hover {
 }
 
 /* Section Titles */
-section h2 {
+section h2,
+section h2.gradient-text {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -116,7 +117,7 @@ section h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  margin: 4rem 0 2.5rem;
+  margin: 6rem 0 2.5rem;
 }
 
 /* Projects */
@@ -163,12 +164,12 @@ section h2 {
   margin: 0 auto;
 }
 .timeline li {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 .timeline h3 {
   color: #f5f5f5;
   font-size: 1rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 .timeline p {
   color: #bbb;
@@ -178,7 +179,7 @@ section h2 {
 /* Contact */
 #contact {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 4rem 1rem 6rem;
   color: #ccc;
   font-size: 0.9rem;
   max-width: 600px;
